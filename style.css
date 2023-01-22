@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 :root{
     --popins: font-family: 'Poppins', sans-serif;
+    --lato: font-family: 'Lato', sans-serif;
 }
 
 .homepage-bg{
-    background-color: #0C0C26;
+    background-color: #0D0D23;
+    color: white;
 }
 
+/*------------------------------------- fonts  */
 .popins{
     font-family: 'Poppins', sans-serif;
+}
+.lato{
+    font-family: 'Lato', sans-serif;
 }
 
 /*------------------------------------- navbar designs  */
@@ -36,3 +43,60 @@
 form button i{
     color: #B8B8B8;
 }
+
+/*-------------------------------------homepage banner designs  */
+.nav{
+    background-image: url('images/banner1.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.abs1{
+    position: absolute;
+    left: 30% ;
+    bottom: 50%;
+}
+
+.abs2{
+    position: absolute;
+    left: 70%;
+}
+
+.banner .container h1{
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: var(--popins);
+}
+.banner .container p{
+    /* font-size: 16px; */
+    font-family: var(--lato);
+}
+
+
+
+
+ /*------------------- tab view  ---------------*/
+
+ @media only screen and (min-width: 577px) and (max-width: 990px) {
+    .abs1{
+        display: none;
+    }
+
+    .abs2{
+        display: none;
+    }
+ }
+
+
+
+ /*------------------- Mobile view  ---------------*/
+ @media only screen and (max-width: 576px) {
+    .abs1 {
+        display: none;
+    }
+    
+    .abs2 {
+        display: none;
+    }
+ }
