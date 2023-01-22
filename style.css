@@ -9,12 +9,14 @@
 .homepage-bg{
     background-color: #0D0D23;
     color: white;
+    /* overflow: hidden; */
 }
 
 /*------------------------------------- fonts  */
 .popins{
     font-family: 'Poppins', sans-serif;
 }
+
 .lato{
     font-family: 'Lato', sans-serif;
 }
@@ -61,6 +63,10 @@ form button i{
 .abs2{
     position: absolute;
     left: 70%;
+    top: 2%;
+    display: none;
+    /* overflow: hidden; */
+    /* z-index: 30; */
 }
 
 .banner .container h1{
@@ -72,6 +78,29 @@ form button i{
     /* font-size: 16px; */
     font-family: var(--lato);
 }
+
+/*-------------------------------------homepage banner designs end */
+
+/*-------------------------------------second part designs start  */
+
+.know-more{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.boxes .box{
+    background-color: #1B1B2C;
+    border-radius: 30px;
+}
+
+.box p{
+    font-size: 14px;
+    font-family: var(--lato);
+}
+
+/*-------------------------------------second part designs end  */
 
 
 
