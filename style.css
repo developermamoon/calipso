@@ -102,6 +102,41 @@ form button i{
 
 /*-------------------------------------second part designs end  */
 
+/* get updated section start -------------------------- */
+
+.get-updated{
+    background-color: #1B1B2C;
+}
+
+.get-updated h3{
+    font-weight: 400;
+}
+
+.submit-button-1{
+    background-color: #5068E7 !important;
+}
+
+.get-updated form{
+    border: 2px solid ;
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+.get-updated form input[type='email']{
+    background-color: transparent;
+    border: 0;
+    width: 100%;
+    color: white;
+}
+
+.get-updated form input[type='email']:focus{
+    outline: 0;
+}
+
+/* get updated section end -------------------------- */
+
 
 
 
@@ -115,6 +150,14 @@ form button i{
     .abs2{
         display: none;
     }
+
+    .get-updated form {
+        border: 2px solid;
+        width: 70%;
+        margin: 0 auto;
+        padding: 5px 10px;
+        border-radius: 25px;
+    }
  }
 
 
@@ -127,5 +170,13 @@ form button i{
     
     .abs2 {
         display: none;
+    }
+
+    .get-updated form {
+        border: 2px solid;
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px 10px;
+        border-radius: 25px;
     }
  }
