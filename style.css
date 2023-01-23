@@ -137,6 +137,31 @@ form button i{
 
 /* get updated section end -------------------------- */
 
+/* video part start ------------------------- */
+
+.video-part h3{
+    font-weight: 400;
+}
+
+.video-part .left-side{
+
+}
+
+.video-part .right-side{
+    background-color: #28283C;
+}
+
+.video-part .right-side{
+    position: relative;
+}
+
+.video-part .right-side img{
+    position: absolute;
+    left: 94%;
+    top: 90%;
+}
+
+/* video part end ------------------------- */
 
 
 
@@ -178,5 +203,11 @@ form button i{
         margin: 0 auto;
         padding: 5px 10px;
         border-radius: 25px;
+    }
+
+    .video-part .right-side {
+        background-color: #28283C;
+        width: 400px;
+        height: 300px;
     }
  }
