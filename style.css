@@ -163,6 +163,44 @@ form button i{
 
 /* video part end ------------------------- */
 
+/*---------------- footer start  */
+
+footer{
+    padding: 100px 0;
+}
+footer h6{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+footer a{
+    text-decoration: none;
+    font-family: var(--lato);
+    display: block;
+    font-size: 20px;
+    color: white;
+    margin: 29px 0;
+}
+
+footer .social-links i {
+    color: #0D0D23;
+    font-size: 20px ;
+}
+
+footer .social-links div{
+    background-color: #5068E7;
+    padding: 16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---------------- footer end  */
+
 
 
  /*------------------- tab view  ---------------*/
