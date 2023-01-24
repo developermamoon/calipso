@@ -50,7 +50,7 @@ form button i{
 .nav{
     background-image: url('images/banner1.png');
     background-size: cover;
-    background-position: center;
+    background-position: right right;
     position: relative;
 }
 
@@ -68,6 +68,7 @@ form button i{
     /* overflow: hidden; */
     /* z-index: 30; */
 }
+
 
 .banner .container h1{
     font-size: 3rem;
