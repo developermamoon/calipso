@@ -164,6 +164,20 @@ form button i{
 
 /* video part end ------------------------- */
 
+
+/* intro page video part start ---------------------- */
+
+.video-part .container{
+    padding-top: 100px;
+}
+
+.video-part .container video{
+    width: 100%;
+    /* height: auto; */
+}
+
+/* intro page video part end ---------------------- */
+
 /*---------------- footer start  */
 
 footer{
