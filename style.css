@@ -236,6 +236,22 @@ form button i{
 .lower-part{
     margin-top: 100px; 
 }
+
+.file-box{
+    background-color: #ECECEC;
+}
+
+.step-numbers{
+    color: #848484;
+    font-size: 16px;
+}
+
+.vertical-line{
+    height: 47px;
+    border-left: 2px solid #848484;
+    /* background-color: #848484; */
+    margin: 10px 30px;
+}
 /* my key page -------------------------- */
 
 
