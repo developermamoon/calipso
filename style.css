@@ -9,7 +9,6 @@
 .homepage-bg{
     background-color: #0D0D23;
     color: white;
-    /* overflow: hidden; */
 }
 
 /*------------------------------------- fonts  */
@@ -177,6 +176,23 @@ form button i{
 }
 
 /* intro page video part end ---------------------- */
+
+.loading-bar-box{
+    width: 80%;
+    /* height: 30px; */
+    border-radius: 50px;
+    background-color: white;
+}
+
+.bar{
+    width: 40%;
+    background-color: green;
+    height: 7%;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
 
 /*---------------- footer start  */
 
