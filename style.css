@@ -215,13 +215,29 @@ form button i{
 
 .side-icons .exit img{
     padding-top: 248px;
+    padding-bottom: 30px;
 }
 
 .side-icons img{
     padding-top: 26px;
     /* width: 100%; */
 }
+
+.img-box-1{
+    height: 70px;
+    width: 70px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+}
+.img-box-1 img{
+    /* width: 100%; */
+}
+
+.lower-part{
+    margin-top: 100px; 
+}
 /* my key page -------------------------- */
+
 
 
 /*---------------- footer start  */
@@ -264,7 +280,7 @@ footer .social-links div{
 
 
 
- /*------------------- tab view  ---------------*/
+ /*------------------------------------- tab view  --------------------------------------------------------------*/
 
  @media only screen and (min-width: 577px) and (max-width: 990px) {
     .abs1{
@@ -303,6 +319,7 @@ footer .social-links div{
 
     .side-icons .exit img {
         padding-top: 10px;
+        padding-bottom: 0px;
     }
 
     .side-icons img {
@@ -357,6 +374,7 @@ footer .social-links div{
 
     .side-icons .exit img {
         padding-top: 10px;
+        padding-bottom: 0px;
         
     }
 
