@@ -79,6 +79,14 @@ form button i{
     font-family: var(--lato);
 }
 
+.responsive-logo{
+    display: none;
+}
+
+.responsive-logo img{
+    width: 100%;
+}
+
 /*-------------------------------------homepage banner designs end */
 
 /*-------------------------------------second part designs start  */
@@ -148,17 +156,22 @@ form button i{
 }
 
 .video-part .right-side{
-    background-color: #28283C;
+    /* background-color: #28283C; */
 }
 
 .video-part .right-side{
-    position: relative;
+    /* position: relative; */
 }
 
 .video-part .right-side img{
-    position: absolute;
-    left: 94%;
-    top: 90%;
+    /* position: absolute; */
+    /* left: 94%; */
+    /* top: 90%; */
+}
+
+.video-part .container div {
+    /* align-items: center; */
+    text-align: start;
 }
 
 /* video part end ------------------------- */
@@ -193,6 +206,23 @@ form button i{
     z-index: 1;
     display: none;
 }
+
+/* my key page -------------------------- */
+
+.side-icons .globe img{
+    padding-bottom: 73px;
+}
+
+.side-icons .exit img{
+    padding-top: 248px;
+}
+
+.side-icons img{
+    padding-top: 26px;
+    /* width: 100%; */
+}
+/* my key page -------------------------- */
+
 
 /*---------------- footer start  */
 
@@ -252,6 +282,33 @@ footer .social-links div{
         padding: 5px 10px;
         border-radius: 25px;
     }
+
+    .responsive-logo {
+        display: block;
+    }
+    
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .video-part .container div {
+        align-items: center;
+    }
+
+    .side-icons .globe img {
+        padding-bottom: 0px;
+        /* padding-right: 30px; */
+    }
+
+    .side-icons .exit img {
+        padding-top: 10px;
+    }
+
+    .side-icons img {
+        padding: 10px 10px;
+        /* width: 100%; */
+    }
  }
 
 
@@ -275,8 +332,36 @@ footer .social-links div{
     }
 
     .video-part .right-side {
-        background-color: #28283C;
-        width: 400px;
-        height: 300px;
+        /* background-color: #28283C; */
+        /* width: 400px; */
+        /* height: 300px; */
+    }
+
+    .video-part .container div {
+        /* align-items: center; */
+        text-align: center;
+    }
+
+    .responsive-logo {
+        display: block;
+    }
+
+    .navbar-brand{
+        display: none;
+    }
+
+    .side-icons .globe img {
+        padding-bottom: 0px;
+        /* padding-right: 30px; */
+    }
+
+    .side-icons .exit img {
+        padding-top: 10px;
+        
+    }
+
+    .side-icons img {
+        padding: 10px 10px;
+        width: 100%;
     }
  }
