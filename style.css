@@ -252,6 +252,21 @@ form button i{
     /* background-color: #848484; */
     margin: 10px 30px;
 }
+
+.round{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #EBEBEB;
+}
+
+.step-parts .left p{
+    margin-bottom: 0;
+}
+
+.right p{
+    margin-bottom: 0;
+}
 /* my key page -------------------------- */
 
 
