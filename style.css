@@ -283,6 +283,12 @@ form button i{
     opacity: 60%;;
 }
 
+.black-box{
+    width: 350px;
+    height: 350px;
+    background-color: black;
+}
+
 
 /*--------------------------------------------------------------- footer start  */
 
@@ -425,5 +431,15 @@ footer .social-links div{
     .side-icons img {
         padding: 10px 10px;
         width: 100%;
+    }
+
+    .black-box {
+        width: 200px;
+        height: 200px;
+        background-color: black;
+    }
+
+    .round{
+        /* width: 100%; */
     }
  }
