@@ -101,7 +101,19 @@ form button i{
 
 .boxes .box{
     background-color: #1B1B2C;
-    border-radius: 30px;
+    border-radius: 60px;
+}
+
+.entry-3-box{
+    color: white;
+    background-color: #1B1B2C;
+    border-radius: 60px;
+    width: 350px;
+}
+
+.entry-3-box p{
+    font-size: 14px;
+    font-family: var(--lato);
 }
 
 .box p{
@@ -441,5 +453,9 @@ footer .social-links div{
 
     .round{
         /* width: 100%; */
+    }
+
+    .entry-3-box{
+        width: auto;
     }
  }
