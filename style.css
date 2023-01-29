@@ -360,6 +360,31 @@ form button i{
     align-items: center;
 }
 
+.heading-row{
+    background-color: #F6F4F8 !important;
+    color: black;
+    border-radius: 20px;
+}
+.heading-row td{
+    font-family: var(--raleway);
+    font-weight: 500;
+    color: #1C2531;
+}
+
+table{
+    /* background-color: white; */
+    color: black;
+}
+table p{
+    margin: 0;
+}
+
+table tr{
+    background-color: white;
+}
+table tr td{
+    padding: 15px;
+}
 
 /*--------------------------------------------------------------- footer start  */
 
