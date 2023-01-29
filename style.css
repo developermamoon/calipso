@@ -386,6 +386,28 @@ table tr td{
     padding: 15px;
 }
 
+/* .file-upload::-webkit-file-upload-button{
+    visibility: hidden;
+    padding: 50px;
+    width: 100%;
+}
+
+.file-upload::before{
+    content: 'Drag file here to Upload';
+    border: 1px dashed #6E4F89;
+    padding: 40px 32px;
+    font-style: var(--popins);
+    color: #6E4F89;
+    background-image: url('images/icons/upload3.png');
+    background-repeat: no-repeat;
+    background-position: 50% 10px;
+} */
+
+input[type='file']{
+    width: 100%;
+}
+
+
 /*--------------------------------------------------------------- footer start  */
 
 footer{
