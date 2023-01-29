@@ -301,6 +301,11 @@ form button i{
     background-color: black;
 }
 
+.scroll-box{
+    height: 18px;
+    border: 1px solid #707070;
+}
+
 
 /*--------------------------------------------------------------- footer start  */
 
@@ -457,5 +462,9 @@ footer .social-links div{
 
     .entry-3-box{
         width: auto;
+    }
+
+    .back-button{
+        width: 100%;
     }
  }
