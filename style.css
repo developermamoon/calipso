@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
 
 :root{
     --popins: font-family: 'Poppins', sans-serif;
     --lato: font-family: 'Lato', sans-serif;
+    --raleway: font-family: 'Raleway', sans-serif;
 }
 
 .homepage-bg{
@@ -18,6 +20,10 @@
 
 .lato{
     font-family: 'Lato', sans-serif;
+}
+
+.raleway{
+    font-family: 'Raleway', sans-serif;
 }
 
 /*------------------------------------- navbar designs  */
@@ -304,6 +310,53 @@ form button i{
 .scroll-box{
     height: 18px;
     border: 1px solid #707070;
+}
+
+.dashboard-side-menu{
+    list-style-type: none;
+    font-family: var(--popins);
+    margin-top: 62px;
+}
+
+.dashboard-side-menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.dashboard-side-menu a div{
+}
+
+.dashboard-side-menu li {
+    margin-bottom: 45px;
+    font-size: 16px;
+}
+
+.source-box{
+    background-color: #52567F;
+    width: 220px;
+}
+
+.dashboard-box-1{
+    background-color: white;
+    color: black;
+}
+
+.dashboard-box-1 h3{
+    font-weight: 400;
+    font-family: var(--popins);
+}
+
+.dashboard-box-1 p {
+    font-size: 12px;
+}
+
+.image-bg{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
