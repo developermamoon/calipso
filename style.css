@@ -408,6 +408,20 @@ input[type='file']{
     width: 100%;
 }
 
+input[type= range]::-webkit-slider-runnable-track{
+    /* background-color: #007E13; */
+    border: 1px solid black;
+    border-radius: 0;
+    height: 15px;
+}
+
+input[type = range]::-webkit-slider-thumb{
+    background-color: #007E13;
+    color: #007E13;
+    width: 30px;
+    height: 30px;
+}
+
 
 /*--------------------------------------------------------------- footer start  */
 
