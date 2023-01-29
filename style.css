@@ -333,12 +333,13 @@ form button i{
 
 .source-box{
     background-color: #52567F;
-    width: 220px;
+    /* width: 220px; */
 }
 
 .dashboard-box-1{
     background-color: white;
     color: black;
+    word-wrap: break-word;
 }
 
 .dashboard-box-1 h3{
