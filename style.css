@@ -344,6 +344,7 @@ form button i{
 
 .dashboard-box-1 h3{
     font-weight: 400;
+    font-size: 24px;
     font-family: var(--popins);
 }
 
