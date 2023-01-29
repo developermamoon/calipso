@@ -422,6 +422,11 @@ input[type = range]::-webkit-slider-thumb{
     height: 30px;
 }
 
+.right-arrow{
+    position: absolute;
+    top: 80%;
+    left: -8%;
+}
 
 
 /*--------------------------------------------------------------- footer start  */
