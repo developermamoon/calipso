@@ -4,7 +4,7 @@ var inputRange = document.getElementsByClassName('pullee')[200],
     currValue, rafID;
 
 // set min/max value
-inputRange.min = 200;
+inputRange.min = 0;
 inputRange.max = maxValue;
 
 // listen for unlock
