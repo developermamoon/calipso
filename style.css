@@ -13,6 +13,13 @@
     color: white;
 }
 
+.homepage-bg-image{
+    background-image: url('images/banner1.png');
+    background-position: 10px -30px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
 /*------------------------------------- fonts  */
 .popins{
     font-family: 'Poppins', sans-serif;
@@ -53,7 +60,7 @@ form button i{
 
 /*-------------------------------------homepage banner designs  */
 .nav{
-    background-image: url('images/banner1.png');
+    /* background-image: url('images/banner1.png'); */
     background-size: cover;
     background-position: right right;
     position: relative;
@@ -163,6 +170,56 @@ form button i{
 }
 
 /* get updated section end -------------------------- */
+
+/* search bar section start -------------------------- */
+
+.search-bar {
+    /* background-color: #1B1B2C; */
+}
+
+.search-bar h3 {
+    font-weight: 400;
+}
+
+.submit-button-3 {
+    /* background-color: #7C4CF9 !important; */
+    background-image: linear-gradient(to right, #584CF8,#694DF9 ,#7C4CF9);
+}
+
+.homepage-image{
+    width: 20%;
+    padding: 35px 0;
+    padding-left: 20px;
+}
+
+.search-bar form {
+    border: 2px solid;
+    width: 65%;
+    margin: 0 auto;
+    padding: 5px 10px;
+    padding-left: 25px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.search-bar form input[type='email'] {
+    background-color: transparent;
+    border: 0;
+    width: 100%;
+    color: white;
+}
+
+.search-bar form input[type='email']:focus {
+    outline: 0;
+}
+
+.form-lower-part a{
+    color: #594FD2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* search bar section end -------------------------- */
 
 /* video part start ------------------------- */
 
@@ -307,7 +364,6 @@ form button i{
 }
 
 .pullee:active::-webkit-slider-thumb {
-    content: "unlock";    
     appearance: none;
     transform: scale(1.1);
     cursor: -webkit-grabbing;
@@ -333,7 +389,6 @@ form button i{
 }
 
 .pullee::-webkit-slider-thumb {
-    content: "unlock";
     appearance: none;
     display: block;
     width: 110px;
@@ -664,6 +719,15 @@ footer .social-links div{
         border-radius: 25px;
     }
 
+
+    .search-bar form {
+        border: 2px solid;
+        width: 70%;
+        margin: 0 auto;
+        padding: 5px 10px;
+        border-radius: 25px;
+    }
+
     .responsive-logo {
         display: block;
     }
@@ -691,6 +755,23 @@ footer .social-links div{
         padding: 10px 10px;
         /* width: 100%; */
     }
+
+    .homepage-image{
+        width: 30%;
+    }
+
+    .homepage-bg-image {
+        background-image: url('images/banner1.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .search-bar form {
+        /* font-size: 16px; */
+        width: 100%;
+    }
+
  }
 
 
@@ -706,6 +787,14 @@ footer .social-links div{
     }
 
     .get-updated form {
+        border: 2px solid;
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px 10px;
+        border-radius: 25px;
+    }
+
+    .search-bar form {
         border: 2px solid;
         width: 100%;
         margin: 0 auto;
@@ -764,5 +853,25 @@ footer .social-links div{
 
     .back-button{
         width: 100%;
+    }
+
+    .homepage-image {
+        width: 70%;
+    }
+
+    .homepage-bg-image {
+        background-image: url('images/banner1.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .search-bar form {
+        font-size: 8px;
+        width: 100%;
+    }
+
+    .submit-button-3{
+        font-size: 9px !important;
     }
  }
