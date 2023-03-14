@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap'); */
 
 :root{
     --popins: font-family: 'Poppins', sans-serif;
-    /* --lato: font-family: 'Lato', sans-serif; */
+    --lato: font-family: 'Lato', sans-serif;
     /* --raleway: font-family: 'Raleway', sans-serif; */
 }
 
@@ -26,11 +26,11 @@
 
 /*------------------------------------- fonts  */
 .popins{
-    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Poppins', sans-serif;
 }
 
 .lato{
-    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Lato', sans-serif !important;
 }
 
 .raleway{
@@ -220,7 +220,16 @@ form button i{
 .form-lower-part a{
     color: #594FD2;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.form-lower-part p{
+    font-size: 18px;
+}
+
+.two-buttons button{
+    font-size: 17px;
 }
 
 .middlepart p{
