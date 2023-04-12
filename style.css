@@ -230,9 +230,9 @@ form button i{
 }
 
 .form-lower-part a{
-    color: #594FD2;
+    color: #16BC00;
     text-decoration: none;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 18px;
 }
 
@@ -242,6 +242,8 @@ form button i{
 
 .two-buttons button{
     font-size: 17px;
+    box-shadow: 0px 0px 10px white;
+    margin: 0 15px ;
 }
 
 .middlepart p{
@@ -903,5 +905,9 @@ footer .social-links div{
 
     .submit-button-3{
         font-size: 9px !important;
+    }
+
+    .two-buttons button{
+        margin: 0;
     }
  }
