@@ -121,11 +121,23 @@ form button i{
     border-radius: 60px;
 }
 
+
+
 .entry-3-box{
     color: white;
     background-color: #1B1B2C;
     border-radius: 60px;
     width: 350px;
+}
+
+.voice-boxes input[type="radio"]{
+    display: none ;
+}
+
+.voice-boxes input[type="radio"]:checked+label .entry-3-box {
+    /* display: none; */
+    box-shadow: 0px 0px 50px blue;
+    background-color: none;
 }
 
 .entry-3-box p{
@@ -162,14 +174,14 @@ form button i{
     border-radius: 25px;
 }
 
-.get-updated form input[type='email']{
+.get-updated form input['email']{
     background-color: transparent;
     border: 0;
     width: 100%;
     color: white;
 }
 
-.get-updated form input[type='email']:focus{
+.get-updated form input['email']:focus{
     outline: 0;
 }
 
